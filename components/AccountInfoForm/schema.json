@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "Account Info",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 80,
+      "attrs": {
+        "placeholder": "Full Name",
+        "title": "Please enter your full name"
+      }
+    },
+    "age": {
+      "type": "integer",
+      "minimum": "0",
+      "attrs": {
+        "placeholder": "Age",
+        "title": "Please enter your age"
+      }
+    },
+    "email": {
+      "type": "string",
+      "maxLength": 120,
+      "attrs": {
+        "type": "email",
+        "placeholder": "Email"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "age",
+    "email"
+  ]
+}
