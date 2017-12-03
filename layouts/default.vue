@@ -33,7 +33,7 @@
                 </a>
               </p>
               <p class="control">
-                <a class="button is-primary" href="https://github.com/jgthms/bulma/archive/0.5.1.zip">
+                <a class="button is-primary" href="/login">
               <span class="icon">
                 <i class="fa fa-download"></i>
               </span>
