@@ -12,6 +12,7 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    'no-debugger': 'off',
     semi: ['error', 'always'],
     'space-before-function-paren': 'off'
   },
